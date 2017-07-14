@@ -1,0 +1,78 @@
+* {
+  border: 1px solid magenta;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+
+}
+
+.container {
+  width: 992px;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.column {
+  height: 100%;
+}
+
+.left {
+  width: 30%;
+  background-color: #405559;
+  text-align: center;
+  color: #EDEDED;
+}
+
+.right {
+  width: 70%;
+  background-color: #EDEDED;
+
+}
+
+header {
+  margin-top: 50px;
+  background-color: #68868C;
+  padding: 30px 0 30px 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 50%;
+  width: 70%;
+margin-top: 30px;
+}
+
+.info {
+  text-align: left;
+
+}
+
+.row {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.icons {
+
+  width: 15%;
+  display: inline-block;
+}
+
+.data {
+  width: 80%;
+  display: inline-block;
+}
+
+
+.data span {
+
+  line-height: 40px;
+}
+
+.name span, .email span {
+  line-height: normal;
+}
