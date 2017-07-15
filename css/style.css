@@ -1,14 +1,13 @@
 * {
-  border: 1px solid magenta;
+
   margin: 0;
   padding: 0;
   font-family: 'Source Code Pro', monospace;
-
 }
 
 .container {
   width: 992px;
-  height: 1000px;
+  height: 1500px;
   margin: 0 auto;
   display: flex;
 }
@@ -27,13 +26,14 @@
 .right {
   width: 70%;
   background-color: #EDEDED;
-
+  text-align: justify;
 }
 
-header {
+header, footer {
   margin-top: 50px;
   background-color: #68868C;
   padding: 30px 0 30px 30px;
+  color: #EDEDED;
 }
 
 h1 {
@@ -48,31 +48,88 @@ margin-top: 30px;
 
 .info {
   text-align: left;
-
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .row {
   width: 100%;
   margin-top: 15px;
+  display: flex;
+
 }
 
 .icons {
-
   width: 15%;
   display: inline-block;
+  margin-top: 5px;
+  margin-left: 15px;
 }
 
 .data {
   width: 80%;
   display: inline-block;
+  padding-left: 10px;
 }
 
 
 .data span {
-
   line-height: 40px;
 }
 
 .name span, .email span {
   line-height: normal;
+}
+
+.details {
+
+  color: #405559;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.details section {
+    margin-top: 20px;
+}
+
+.details p {
+  padding-left: 30px;
+}
+
+.details ul {
+  padding-left: 30px;
+  list-style-position: inside;
+}
+
+.details i {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.details h1 {
+
+  display:inline-block;
+  vertical-align: text-top;
+  margin-bottom: 0px;
+}
+
+.details h2 {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.skills span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+footer {
+  padding: 10px 30px 10px 30px;
+}
+footer p {
+  font-size: 10px;
+  text-align: justify;
+
 }
