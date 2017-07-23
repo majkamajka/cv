@@ -5,6 +5,10 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+a {
+  color: #EDEDED;
+}
+
 .container {
   width: 992px;
   height: 1630px;
@@ -41,6 +45,11 @@ header, footer {
   background-color: #68868C;
   padding: 30px 0 30px 30px;
   color: #EDEDED;
+}
+
+header {
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -110,6 +119,10 @@ margin-top: 30px;
 
 .details p {
   padding-left: 35px;
+}
+
+.skills p {
+  text-align: left;
 }
 
 .details ul {
